@@ -1,0 +1,3 @@
+git clone https://github.com/IvanAntonov1998/Brute_force_RTSP_tester.git
+cd Into the folder
+chmod +x rtsp_bruteforce.sh
