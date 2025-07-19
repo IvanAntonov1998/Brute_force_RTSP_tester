@@ -1,0 +1,7 @@
+- Linux with bash
+
+VLC (cvlc) installed:
+- sudo apt install vlc
+Wordlists (default paths):
+- /usr/share/wordlists/SecLists/Usernames/cirt-default-usernames.txt
+- /usr/share/wordlists/rockyou.txt
